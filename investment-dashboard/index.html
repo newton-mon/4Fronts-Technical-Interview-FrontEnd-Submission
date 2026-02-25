@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Investment Dashboard</title>
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark bg-dark">
+<div class="container">
+    <span class="navbar-brand">
+        Investment Club
+    </span>
+
+    <button
+    class="navbar-toggler"
+    type="button"
+    onclick="toggleMenu()">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+
+</nav>
+<!-- COLLAPSIBLE MENU -->
+  <div id="mobileMenu" class="menu-panel">
+    <a href="#">Dashboard</a>
+    <a href="#">Memberships</a>
+    <a href="#">Settings</a>
+  </div>
+
+
+
+<div class="container dashboard-container py-4">
+
+
+
+<!-- PROFILE CARD -->
+
+<div class="card profile-card mb-4 p-3">
+<div class="row align-items-center">
+<div class="col-auto">
+
+<img src="https://via.placeholder.com/80" class="avatar">
+
+</div>
+
+<div class="col">
+    <h5>Michael</h5>
+    <p>
+        You've officially joined your first investment knowledge club!
+    </p>
+
+</div>
+
+</div>
+
+<!-- SCORE GRID -->
+
+<div class="row g-3 mb-4">
+
+
+
+    <div class="col-6 col-md-3">
+        <div class="card stat-card pink">
+            <img src="https://via.placeholder.com/40">
+            <h6>Benard</h6>
+            <div class="score">
+                350
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="col-6 col-md-3">
+
+        <div class="card stat-card green">
+            <img src="https://via.placeholder.com/40">
+            <h6>KigSmall</h6>
+            <div class="score">
+            225
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="col-6 col-md-3">
+        <div class="card stat-card yellow">
+            <img src="https://via.placeholder.com/40">
+            <h6>Caroline</h6>
+            <div class="score">
+            117
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="col-6 col-md-3">
+
+<div class="card stat-card red">
+
+<img src="https://via.placeholder.com/40">
+
+<h6>Caroline</h6>
+
+<div class="score">
+
+321
+
+</div>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+<!-- RECOMMENDATION -->
+
+<div class="card recommendation mb-4 p-3">
+
+<h5>
+
+Now let's make you great!
+
+</h5>
+
+<p>
+
+You have shown us where you are doing well and where we can
+support you to be great.
+
+From your profile we recommend these memberships.
+
+Pick one that fits you best.
+
+</p>
+
+</div>
+
+
+
+<!-- MEMBERSHIP CARDS -->
+
+<div id="membershipSection">
+
+
+
+<div class="card membership mb-3">
+
+<div class="membership-header gold">
+
+FOUNDATION MEMBERSHIP
+
+</div>
+
+<div class="p-3">
+
+We invest for you in shares and global funds.
+
+Service is free online.
+
+</div>
+
+<button
+class="btn btn-outline-dark m-3"
+data-bs-toggle="modal"
+data-bs-target="#signupModal">
+
+Join Plan
+
+</button>
+
+</div>
+
+
+
+<div class="card membership mb-4">
+
+<div class="membership-header blue">
+
+ECONOMY MEMBERSHIP
+
+</div>
+
+<div class="p-3">
+
+We invest your money at a guaranteed rate.
+
+Service is free online.
+
+</div>
+
+<button
+class="btn btn-outline-dark m-3"
+data-bs-toggle="modal"
+data-bs-target="#signupModal">
+
+Join Plan
+
+</button>
+
+</div>
+
+
+
+</div>
+
+
+
+<!-- CTA BUTTON -->
+
+<button
+class="btn btn-warning w-100 mb-4"
+onclick="scrollToMembership()">
+
+View Membership Details
+
+</button>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+© 2025 Investment Club
+
+</footer>
+
+
+
+</div>
+
+
+
+<!-- CHAT BUTTON -->
+
+<button
+class="chat-button btn btn-success"
+onclick="openChat()">
+
+<i class="bi bi-whatsapp"></i>
+
+</button>
+
+
+
+<!-- MODAL -->
+
+<div
+class="modal fade"
+id="signupModal">
+
+<div class="modal-dialog">
+
+<div class="modal-content">
+
+
+
+<div class="modal-header">
+
+<h5>Join Membership</h5>
+
+<button
+class="btn-close"
+data-bs-dismiss="modal">
+
+</button>
+
+</div>
+
+
+
+<div class="modal-body">
+
+
+
+<form id="signupForm">
+
+
+
+<input
+type="text"
+class="form-control mb-3"
+placeholder="Full Name"
+id="name">
+
+
+
+<input
+type="email"
+class="form-control mb-3"
+placeholder="Email"
+id="email">
+
+
+
+<button
+type="submit"
+class="btn btn-primary w-100">
+
+Submit
+
+</button>
+
+
+
+</form>
+
+
+
+</div>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+
+
+</body>
+
+</html>
