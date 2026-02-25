@@ -1,9 +1,6 @@
 body{
-
 background:#f2f2f2;
-
 font-family:Arial;
-
 }
 
 
@@ -11,9 +8,7 @@ font-family:Arial;
 /* Container */
 
 .dashboard-container{
-
 max-width:900px;
-
 }
 
 
@@ -21,27 +16,18 @@ max-width:900px;
 /* Profile */
 
 .profile-card{
-
 background:#333;
-
 color:white;
-
 border-radius:15px;
-
 border:2px solid gold;
-
 }
 
 
 
 .avatar{
-
 width:80px;
-
 height:80px;
-
 border-radius:50%;
-
 }
 
 
@@ -49,23 +35,16 @@ border-radius:50%;
 /* Stats */
 
 .stat-card{
-
 padding:20px;
-
 text-align:center;
-
 border-radius:12px;
-
 border:none;
-
 }
 
 
 
 .stat-card img{
-
 border-radius:50%;
-
 margin-bottom:5px;
 
 }
@@ -73,11 +52,8 @@ margin-bottom:5px;
 
 
 .score{
-
 font-size:28px;
-
 font-weight:bold;
-
 }
 
 
@@ -85,27 +61,19 @@ font-weight:bold;
 /* Colors */
 
 .pink{
-
 background:#f7c6c6;
-
 }
 
 .green{
-
 background:#cce5cc;
-
 }
 
 .yellow{
-
 background:#f7e7b6;
-
 }
 
 .red{
-
 background:#f3bcbc;
-
 }
 
 
@@ -115,47 +83,32 @@ background:#f3bcbc;
 .recommendation{
 
 background:#333;
-
 color:white;
-
 border-radius:12px;
-
 }
 
 
 
 .recommendation h5{
-
 color:gold;
-
 }
-
 
 
 /* Membership */
 
 .membership{
-
 border-radius:12px;
-
 border:none;
-
 }
 
 
 
 .membership-header{
-
 padding:15px;
-
 color:white;
-
 font-weight:bold;
-
 border-top-left-radius:12px;
-
 border-top-right-radius:12px;
-
 }
 
 
@@ -163,7 +116,6 @@ border-top-right-radius:12px;
 .gold{
 
 background:#d4af37;
-
 }
 
 
@@ -171,7 +123,6 @@ background:#d4af37;
 .blue{
 
 background:#5a7da8;
-
 }
 
 
@@ -179,13 +130,9 @@ background:#5a7da8;
 /* Footer */
 
 footer{
-
 text-align:center;
-
 font-size:12px;
-
 color:#777;
-
 }
 
 
@@ -195,19 +142,12 @@ color:#777;
 .chat-button{
 
 position:fixed;
-
 bottom:20px;
-
 right:20px;
-
 width:60px;
-
 height:60px;
-
 border-radius:50%;
-
 font-size:22px;
-
 }
 
 
@@ -215,35 +155,24 @@ font-size:22px;
 /* Menu */
 
 .menu-panel{
-
 display:none;
-
 background:#222;
-
 padding:10px;
-
 }
 
 
 
 .menu-panel a{
-
 display:block;
-
 color:white;
-
 padding:10px;
-
 text-decoration:none;
-
 }
 
 
 
 .menu-panel a:hover{
-
 background:#444;
-
 }
 
 
@@ -251,11 +180,7 @@ background:#444;
 /* Responsive */
 
 @media(max-width:768px){
-
 .dashboard-container{
-
 max-width:420px;
-
 }
-
 }
