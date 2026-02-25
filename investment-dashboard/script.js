@@ -63,15 +63,28 @@ document.getElementById("email").value;
 
 
 if(name==="" || email===""){
-
 alert("Please fill all fields");
-
 return;
-
 }
-
-
 
 alert("Registration Successful");
 
 });
+
+
+/* Toggle Membership Description */
+
+function toggleDescription(id){
+
+let section =
+document.getElementById(id);
+
+if(section.style.display==="block")
+
+section.style.display="none";
+
+else
+
+section.style.display="block";
+
+}

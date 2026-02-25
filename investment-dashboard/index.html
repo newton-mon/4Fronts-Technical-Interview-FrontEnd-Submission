@@ -150,66 +150,87 @@
 
     <!-- MEMBERSHIP CARDS -->
 
-    <div id="membershipSection">
+<div id="membershipSection">
 
+    <!-- FOUNDATION -->
 
+    <div class="card membership mb-3">
 
-        <div class="card membership mb-3">
+        <div
+            class="membership-header gold"
+            onclick="toggleDescription('foundationDesc')">
 
-            <div class="membership-header gold">
+            FOUNDATION MEMBERSHIP
+            <i class="bi bi-chevron-down float-end"></i>
 
-                FOUNDATION MEMBERSHIP
+        </div>
 
-            </div>
+        <div
+            class="membership-body"
+            id="foundationDesc">
 
             <div class="p-3">
 
-            We invest for you in shares and global funds.
+                We invest for you in shares and global funds.
 
-            Service is free online.
+                Service is free online.
 
             </div>
 
             <button
-            class="btn btn-outline-dark m-3"
-            data-bs-toggle="modal"
-            data-bs-target="#signupModal">
+                class="btn btn-outline-dark m-3"
+                data-bs-toggle="modal"
+                data-bs-target="#signupModal">
 
-            Join Plan
+                Join Plan
 
             </button>
 
         </div>
 
-        <div class="card membership mb-4">
+    </div>
 
-            <div class="membership-header blue">
+
+
+    <!-- ECONOMY -->
+
+    <div class="card membership mb-4">
+
+        <div
+            class="membership-header blue"
+            onclick="toggleDescription('economyDesc')">
 
             ECONOMY MEMBERSHIP
+            <i class="bi bi-chevron-down float-end"></i>
 
-            </div>
+        </div>
 
-            <div class="p-3">
+        <div
+            class="membership-body"
+            id="economyDesc">
+
+        <div class="p-3">
 
             We invest your money at a guaranteed rate.
 
             Service is free online.
 
-            </div>
+        </div>
 
-            <button
+        <button
             class="btn btn-outline-dark m-3"
             data-bs-toggle="modal"
             data-bs-target="#signupModal">
 
             Join Plan
 
-            </button>
+        </button>
 
         </div>
 
-
     </div>
+
+</div>
 
 
 

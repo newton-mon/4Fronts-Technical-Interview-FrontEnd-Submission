@@ -184,3 +184,22 @@ background:#444;
 max-width:420px;
 }
 }
+
+/* Membership Toggle */
+
+.membership-body{
+display:none;
+animation:fadeIn 0.3s;
+}
+
+
+/* Animation */
+@keyframes fadeIn{
+from{
+opacity:0;
+}
+to{
+opacity:1;
+}
+
+}
