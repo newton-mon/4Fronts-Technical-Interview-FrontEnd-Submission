@@ -43,38 +43,83 @@
 
 
 
-<!-- PROFILE CARD -->
+    <!-- PROFILE CARD -->
 
-<div class="card profile-card mb-4 p-3">
-<div class="row align-items-center">
-    <div class="col-auto">
+    <div class="card profile-card mb-4 p-3">
+        <div class="row align-items-center">
+            <div class="col-auto">
 
-<img src="https://via.placeholder.com/80" class="avatar">
+            <img src="https://via.placeholder.com/80" class="avatar">
 
-    </div>
+            </div>
 
-    <div class="col">
-    <h5>Michael</h5>
-    <p>
-        You've officially joined your first investment knowledge club!
-    </p>
+            <div class="col">
+                <h5>Michael</h5>
+                <p> You've officially joined your first investment knowledge club!
+                </p>
 
-</div>
+            </div>
 
-</div>
+        </div>
 
-<!-- SCORE GRID -->
+        <!-- SCORE GRID -->
 
-<div class="row g-3 mb-4">
-
+        <div class="row g-3 mb-4">
 
 
-    <div class="col-6 col-md-3">
-        <div class="card stat-card pink">
-            <img src="https://via.placeholder.com/40">
-            <h6>Benard</h6>
-            <div class="score">
-                350
+
+            <div class="col-6 col-md-3">
+                <div class="card stat-card pink">
+                    <img src="https://via.placeholder.com/40">
+                    <h6>Benard</h6>
+                    <div class="score">
+                        350
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="col-6 col-md-3">
+
+                <div class="card stat-card green">
+                    <img src="https://via.placeholder.com/40">
+                    <h6>KigSmall</h6>
+                    <div class="score">
+                    225
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row g-3 mb-4">
+
+
+
+            <div class="col-6 col-md-3">
+                <div class="card stat-card yellow">
+                    <img src="https://via.placeholder.com/40">
+                    <h6>James
+                    </h6>
+                    <div class="score">
+                    117
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-6 col-md-3">
+            <div class="card stat-card red">
+                <img src="https://via.placeholder.com/40">
+                <h6>Caroline</h6>
+                <div class="score">
+                321
+                </div>
+            </div>
             </div>
         </div>
 
@@ -82,163 +127,111 @@
 
 
 
-    <div class="col-6 col-md-3">
+    <!-- RECOMMENDATION -->
 
-        <div class="card stat-card green">
-            <img src="https://via.placeholder.com/40">
-            <h6>KigSmall</h6>
-            <div class="score">
-            225
+    <div class="card recommendation mb-4 p-3">
+
+        <h5> Now let's make you great! </h5>
+
+        <p>
+
+        You have shown us where you are doing well and where we can
+        support you to be great.
+
+        From your profile we recommend these memberships.
+
+        Pick one that fits you best.
+
+        </p>
+
+    </div>
+
+
+
+    <!-- MEMBERSHIP CARDS -->
+
+    <div id="membershipSection">
+
+
+
+        <div class="card membership mb-3">
+
+            <div class="membership-header gold">
+
+                FOUNDATION MEMBERSHIP
+
             </div>
 
-        </div>
+            <div class="p-3">
 
-    </div>
+            We invest for you in shares and global funds.
 
+            Service is free online.
 
-
-    <div class="col-6 col-md-3">
-        <div class="card stat-card yellow">
-            <img src="https://via.placeholder.com/40">
-            <h6>Caroline</h6>
-            <div class="score">
-            117
             </div>
+
+            <button
+            class="btn btn-outline-dark m-3"
+            data-bs-toggle="modal"
+            data-bs-target="#signupModal">
+
+            Join Plan
+
+            </button>
+
         </div>
+
+        <div class="card membership mb-4">
+
+            <div class="membership-header blue">
+
+            ECONOMY MEMBERSHIP
+
+            </div>
+
+            <div class="p-3">
+
+            We invest your money at a guaranteed rate.
+
+            Service is free online.
+
+            </div>
+
+            <button
+            class="btn btn-outline-dark m-3"
+            data-bs-toggle="modal"
+            data-bs-target="#signupModal">
+
+            Join Plan
+
+            </button>
+
+        </div>
+
+
     </div>
 
-</div>
 
 
+    <!-- CTA BUTTON -->
 
-<div class="col-6 col-md-3">
-    <div class="card stat-card red">
-        <img src="https://via.placeholder.com/40">
-        <h6>Caroline</h6>
-        <div class="score">
-        321
-        </div>
-    </div>
-</div>
+    <button
+    class="btn btn-warning w-100 mb-4"
+    onclick="scrollToMembership()">
 
+    View Membership Details
 
+    </button>
 
-</div>
 
 
+    <!-- FOOTER -->
 
-<!-- RECOMMENDATION -->
+    <footer>
 
-<div class="card recommendation mb-4 p-3">
+    © 2025 Investment Club
 
-<h5>
-
-Now let's make you great!
-
-</h5>
-
-<p>
-
-You have shown us where you are doing well and where we can
-support you to be great.
-
-From your profile we recommend these memberships.
-
-Pick one that fits you best.
-
-</p>
-
-</div>
-
-
-
-<!-- MEMBERSHIP CARDS -->
-
-<div id="membershipSection">
-
-
-
-<div class="card membership mb-3">
-
-<div class="membership-header gold">
-
-FOUNDATION MEMBERSHIP
-
-</div>
-
-<div class="p-3">
-
-We invest for you in shares and global funds.
-
-Service is free online.
-
-</div>
-
-<button
-class="btn btn-outline-dark m-3"
-data-bs-toggle="modal"
-data-bs-target="#signupModal">
-
-Join Plan
-
-</button>
-
-</div>
-
-
-
-<div class="card membership mb-4">
-
-<div class="membership-header blue">
-
-ECONOMY MEMBERSHIP
-
-</div>
-
-<div class="p-3">
-
-We invest your money at a guaranteed rate.
-
-Service is free online.
-
-</div>
-
-<button
-class="btn btn-outline-dark m-3"
-data-bs-toggle="modal"
-data-bs-target="#signupModal">
-
-Join Plan
-
-</button>
-
-</div>
-
-
-
-</div>
-
-
-
-<!-- CTA BUTTON -->
-
-<button
-class="btn btn-warning w-100 mb-4"
-onclick="scrollToMembership()">
-
-View Membership Details
-
-</button>
-
-
-
-<!-- FOOTER -->
-
-<footer>
-
-© 2025 Investment Club
-
-</footer>
+    </footer>
 
 
 
@@ -272,13 +265,13 @@ id="signupModal">
 
 <div class="modal-header">
 
-<h5>Join Membership</h5>
+    <h5>Join Membership</h5>
 
-<button
-class="btn-close"
-data-bs-dismiss="modal">
+    <button
+    class="btn-close"
+    data-bs-dismiss="modal">
 
-</button>
+    </button>
 
 </div>
 
@@ -288,39 +281,35 @@ data-bs-dismiss="modal">
 
 
 
-<form id="signupForm">
+    <form id="signupForm">
 
 
 
-<input
-type="text"
-class="form-control mb-3"
-placeholder="Full Name"
-id="name">
+    <input
+    type="text"
+    class="form-control mb-3"
+    placeholder="Full Name"
+    id="name">
 
 
 
-<input
-type="email"
-class="form-control mb-3"
-placeholder="Email"
-id="email">
+    <input
+    type="email"
+    class="form-control mb-3"
+    placeholder="Email"
+    id="email">
 
 
 
-<button
-type="submit"
-class="btn btn-primary w-100">
+    <button
+    type="submit"
+    class="btn btn-primary w-100">
 
-Submit
+    Submit
 
-</button>
+    </button>
 
-
-
-</form>
-
-
+    </form>
 
 </div>
 
