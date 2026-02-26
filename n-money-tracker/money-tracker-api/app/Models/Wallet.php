@@ -1,6 +1,14 @@
+<?php
+
+namespace App\Models; 
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+
 class Wallet extends Model
 {
-    protected $fillable = ['user_id', 'name'];
+    protected $fillable = ['user_id', 'name','currency'];
     
     // Append the custom attribute so it automatically shows up in API responses
     protected $appends = ['balance'];
@@ -23,4 +31,6 @@ class Wallet extends Model
         
         return $income - $expense;
     }
+
+     
 }
